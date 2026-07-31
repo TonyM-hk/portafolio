@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DeAlva Spa">
+  <defs>
+    <linearGradient id="g-project-dealva" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#5B87F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#g-project-dealva)"/>
+    <circle cx="499" cy="171" r="21" fill="white" opacity="0.2"/>
+    <circle cx="193" cy="283" r="68" fill="white" opacity="0.14"/>
+    <circle cx="528" cy="49" r="62" fill="white" opacity="0.18"/>
+    <circle cx="551" cy="298" r="43" fill="white" opacity="0.15"/>
+    <circle cx="117" cy="275" r="48" fill="white" opacity="0.1"/>
+  <g transform="translate(40,255)">
+    <rect x="0" y="0" width="14" height="14" rx="4" fill="white" opacity="0.9"/>
+    <rect x="20" y="0" width="14" height="14" rx="4" fill="white" opacity="0.55"/>
+    <rect x="40" y="0" width="14" height="14" rx="4" fill="white" opacity="0.3"/>
+  </g>
+  <text x="40" y="220" font-family="ui-monospace,Menlo,monospace" font-size="26" fill="white" opacity="0.95" font-weight="600">DeAlva Spa</text>
+</svg>

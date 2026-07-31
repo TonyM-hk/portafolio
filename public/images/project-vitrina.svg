@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vitrina">
+  <defs>
+    <linearGradient id="g-project-vitrina" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DB2777"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#g-project-vitrina)"/>
+    <circle cx="536" cy="275" r="44" fill="white" opacity="0.09"/>
+    <circle cx="357" cy="120" r="24" fill="white" opacity="0.1"/>
+    <circle cx="154" cy="42" r="24" fill="white" opacity="0.17"/>
+    <circle cx="207" cy="194" r="66" fill="white" opacity="0.08"/>
+    <circle cx="61" cy="114" r="44" fill="white" opacity="0.15"/>
+  <g transform="translate(40,255)">
+    <rect x="0" y="0" width="14" height="14" rx="4" fill="white" opacity="0.9"/>
+    <rect x="20" y="0" width="14" height="14" rx="4" fill="white" opacity="0.55"/>
+    <rect x="40" y="0" width="14" height="14" rx="4" fill="white" opacity="0.3"/>
+  </g>
+  <text x="40" y="220" font-family="ui-monospace,Menlo,monospace" font-size="30" fill="white" opacity="0.95" font-weight="600">Vitrina</text>
+</svg>

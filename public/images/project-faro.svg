@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Faro">
+  <defs>
+    <linearGradient id="g-project-faro" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#g-project-faro)"/>
+    <circle cx="424" cy="21" r="49" fill="white" opacity="0.13"/>
+    <circle cx="125" cy="158" r="67" fill="white" opacity="0.1"/>
+    <circle cx="560" cy="51" r="23" fill="white" opacity="0.09"/>
+    <circle cx="367" cy="169" r="63" fill="white" opacity="0.09"/>
+    <circle cx="368" cy="145" r="36" fill="white" opacity="0.15"/>
+  <g transform="translate(40,255)">
+    <rect x="0" y="0" width="14" height="14" rx="4" fill="white" opacity="0.9"/>
+    <rect x="20" y="0" width="14" height="14" rx="4" fill="white" opacity="0.55"/>
+    <rect x="40" y="0" width="14" height="14" rx="4" fill="white" opacity="0.3"/>
+  </g>
+  <text x="40" y="220" font-family="ui-monospace,Menlo,monospace" font-size="30" fill="white" opacity="0.95" font-weight="600">Faro</text>
+</svg>

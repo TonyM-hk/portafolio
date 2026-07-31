@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NBA Analysis">
+  <defs>
+    <linearGradient id="g-project-nba" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#g-project-nba)"/>
+    <circle cx="38" cy="134" r="21" fill="white" opacity="0.15"/>
+    <circle cx="262" cy="254" r="44" fill="white" opacity="0.17"/>
+    <circle cx="467" cy="27" r="34" fill="white" opacity="0.19"/>
+    <circle cx="508" cy="134" r="47" fill="white" opacity="0.14"/>
+    <circle cx="53" cy="73" r="46" fill="white" opacity="0.13"/>
+  <g transform="translate(40,255)">
+    <rect x="0" y="0" width="14" height="14" rx="4" fill="white" opacity="0.9"/>
+    <rect x="20" y="0" width="14" height="14" rx="4" fill="white" opacity="0.55"/>
+    <rect x="40" y="0" width="14" height="14" rx="4" fill="white" opacity="0.3"/>
+  </g>
+  <text x="40" y="220" font-family="ui-monospace,Menlo,monospace" font-size="26" fill="white" opacity="0.95" font-weight="600">NBA Analysis</text>
+</svg>

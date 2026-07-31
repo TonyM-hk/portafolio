@@ -1,0 +1,20 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Movilidad UTEsc">
+  <defs>
+    <linearGradient id="g-project-transit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#g-project-transit)"/>
+    <circle cx="399" cy="59" r="70" fill="white" opacity="0.11"/>
+    <circle cx="45" cy="143" r="66" fill="white" opacity="0.09"/>
+    <circle cx="447" cy="239" r="61" fill="white" opacity="0.13"/>
+    <circle cx="126" cy="260" r="38" fill="white" opacity="0.2"/>
+    <circle cx="60" cy="63" r="37" fill="white" opacity="0.18"/>
+  <g transform="translate(40,255)">
+    <rect x="0" y="0" width="14" height="14" rx="4" fill="white" opacity="0.9"/>
+    <rect x="20" y="0" width="14" height="14" rx="4" fill="white" opacity="0.55"/>
+    <rect x="40" y="0" width="14" height="14" rx="4" fill="white" opacity="0.3"/>
+  </g>
+  <text x="40" y="220" font-family="ui-monospace,Menlo,monospace" font-size="26" fill="white" opacity="0.95" font-weight="600">Movilidad UTEsc</text>
+</svg>
