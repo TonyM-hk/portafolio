@@ -10,10 +10,10 @@ import { personal } from "@/data/content";
 
 const SECTION_IDS = [
   "about",
+  "education",
   "skills",
   "projects",
   "work-documents",
-  "education",
   "achievements",
   "contact",
 ];
@@ -49,10 +49,10 @@ export default function Navbar() {
 
   const links: { id: string; label: string }[] = [
     { id: "about", label: t.nav.about },
+    { id: "education", label: t.nav.education },
     { id: "skills", label: t.nav.skills },
     { id: "projects", label: t.nav.projects },
     { id: "work-documents", label: t.nav.workDocuments },
-    { id: "education", label: t.nav.education },
     { id: "achievements", label: t.nav.achievements },
     { id: "contact", label: t.nav.contact },
   ];

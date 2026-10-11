@@ -80,7 +80,7 @@ const jsonLd = {
   jobTitle: personal.role.en,
   email: personal.email,
   url: siteUrl,
-  sameAs: [personal.github, personal.linkedin],
+  sameAs: [personal.github],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

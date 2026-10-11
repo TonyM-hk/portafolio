@@ -10,7 +10,7 @@ export default function Footer() {
 
   const socials = [
     { icon: Github, href: personal.github, label: "GitHub" },
-    { icon: Linkedin, href: personal.linkedin, label: "LinkedIn" },
+    // { icon: Linkedin, href: personal.linkedin, label: "LinkedIn" },
     { icon: Mail, href: `mailto:${personal.email}`, label: "Email" },
   ];
 
@@ -41,7 +41,7 @@ export default function Footer() {
         <p className="text-xs text-muted dark:text-muted-dark">
           © {year} {personal.name}. {t.footer.rights}
           <br />
-          {t.footer.builtWith}
+          {/* {t.footer.builtWith} */}
         </p>
       </div>
     </footer>

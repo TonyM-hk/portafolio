@@ -139,12 +139,12 @@ export const personal = {
     es: "Escuinapa de Hidalgo, Sinaloa, México",
     en: "Escuinapa de Hidalgo, Sinaloa, Mexico",
   },
-  email: "tony4xt@gmail.com",
+  email: "al202300140tidsm@gmail.com",
   phoneDisplay: "+52 695 951 3289",
   whatsappNumber: "526959513289",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/docs/CV_TONANTZIN_MORALES.pdf",
   github: "https://github.com/TonyM-hk",
-  linkedin: "https://linkedin.com/in/tonym-hk", // Enlace adaptado a tu username general
+  linkedin: "https://linkedin.com/in/tonym-hk", 
   availability: {
     es: "Disponible para residencias profesionales y proyectos",
     en: "Available for professional internships and projects",
@@ -194,6 +194,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "HTML", level: 95 },
       { name: "CSS", level: 90 },
       { name: "JavaScript", level: 88 },
+      { name: "Java", level: 85 },
       { name: "React", level: 85 },
       { name: "Next.js", level: 80 },
       { name: "Flutter", level: 75 },
@@ -216,6 +217,7 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "MySQL", level: 88 },
       { name: "PostgreSQL", level: 82 },
+      { name: "MongoDB", level: 70 },
     ],
   },
   {
@@ -244,7 +246,7 @@ export const projects: Project[] = [
     tech: ["Next", "MySQL", "JavaScript", "React"],
     categories: ["web", "backend", "frontend"],
     demoUrl: "https://example.com/dealva",
-    githubUrl: "https://github.com/TonyM-hk/dealva-spa",
+    // githubUrl: "https://github.com/TonyM-hk/dealva-spa",
     featured: true,
     description: {
       es: "Aplicación web de gestión administrativa desarrollada para Evoliss México, diseñada para optimizar los flujos operativos, el control de citas y métricas internas.",
@@ -281,7 +283,7 @@ export const projects: Project[] = [
       "/images/projects/spa-4.png",
       "/images/projects/spa-5.png",
     ],
-    video: "/videos/spa-demo.mp4",
+    video: "/videos/spa_video_bno.mp4",
     documents: [],
   },
 
@@ -291,8 +293,8 @@ export const projects: Project[] = [
     image: "/images/GAME1.png",
     tech: ["PHP", "JS", "Google"],
     categories: ["web", "frontend", "backend"],
-    demoUrl: "https://example.com/puzzle",
-    githubUrl: "https://github.com/TonyM-hk/puzzle-escape",
+    demoUrl: "https://nairdamorales.proyectosidgs.com/juegos/login.php",
+    // githubUrl: "https://github.com/TonyM-hk/puzzle-escape",
     featured: true,
     description: {
       es: "Aplicación web interactiva que integra un sistema de autenticación seguro mediante Google Sign-In para gestionar y almacenar el progreso de los usuarios.",
@@ -335,7 +337,7 @@ export const projects: Project[] = [
     image: "/images/projects/gastro-1.png",
     tech: ["Node", "React Native", "Mongo"],
     categories: ["mobile", "backend"],
-    githubUrl: "https://github.com/TonyM-hk/gastro-app",
+    // githubUrl: "https://github.com/TonyM-hk/gastro-app",
     featured: true,
     description: {
       es: "Aplicación móvil desarrollada para la gestión del equipamiento de la carrera de Gastronomía, permitiendo administrar y consultar el inventario de equipamiento mayor y menor mediante una interfaz intuitiva.",
@@ -364,6 +366,8 @@ export const projects: Project[] = [
       ],
     },
     gallery: ["/images/projects/gastro-2.png", "/images/projects/gastro-3.png"],
+    video: "/videos/AppMovil.mp4",
+
     documents: [
       {
         label: {
@@ -384,8 +388,8 @@ export const projects: Project[] = [
     image: "/images/projects/colegio-1.png",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     categories: ["web", "frontend", "backend"],
-    demoUrl: "https://example.com/colegio-el-molino",
-    githubUrl: "https://github.com/TonyM-hk/colegio-el-molino",
+    demoUrl: "https://colegiomolino.proyectosidgs.com/",
+    // githubUrl: "https://github.com/TonyM-hk/colegio-el-molino",
     description: {
       es: "Sistema web para el control escolar que permite gestionar asistencias y tareas del alumnado, consultar el historial académico y visualizar un ranking de grados.",
       en: "Web-based school management system for tracking student attendance and assignments, viewing academic history, and displaying grade rankings.",
@@ -428,8 +432,8 @@ export const projects: Project[] = [
     image: "/images/projects/cursos-1.png",
     tech: ["HTML", "CSS", "JavaScript", "PHP"],
     categories: ["web", "frontend", "backend"],
-    demoUrl: "https://example.com/pagina-cursos",
-    githubUrl: "https://github.com/TonyM-hk/pagina-cursos",
+    // demoUrl: "https://example.com/pagina-cursos",
+    // githubUrl: "https://github.com/TonyM-hk/pagina-cursos",
     description: {
       es: "Página web de presentación de cursos en línea, con tarjetas de curso, categorías y llamadas a la acción para inscripción.",
       en: "Landing page for online courses, featuring course cards, categories, and enrollment calls to action.",
@@ -465,8 +469,8 @@ export const projects: Project[] = [
     image: "/images/projects/portafolio-html-1.png",
     tech: ["HTML", "CSS", "JavaScript"],
     categories: ["web", "frontend"],
-    demoUrl: "https://example.com/portafolio-html",
-    githubUrl: "https://github.com/TonyM-hk/portafolio-html",
+    demoUrl: "https://jesuscruz.proyectosidgs.com/",
+    // githubUrl: "https://github.com/TonyM-hk/portafolio-html",
     description: {
       es: "Portafolio web desarrollado para recopilar y presentar los proyectos, prácticas y ejercicios realizados durante el cuarto cuatrimestre, mostrando la evidencia del trabajo académico y las habilidades adquiridas en el desarrollo de software.",
       en: "Web portfolio developed to showcase the projects, assignments, and exercises completed during the fourth semester, providing evidence of academic work and demonstrating software development skills.",
@@ -508,8 +512,8 @@ export const projects: Project[] = [
     image: "/images/projects/hello-kitty-1.png",
     tech: ["HTML", "CSS", "JavaScript"],
     categories: ["web", "frontend"],
-    demoUrl: "https://example.com/hello-kitty",
-    githubUrl: "https://github.com/TonyM-hk/hello-kitty-site",
+    demoUrl: "https://nairdamorales.proyectosidgs.com/hello_k/index.html",
+    // githubUrl: "https://github.com/TonyM-hk/hello-kitty-site",
     description: {
       es: "Sitio web temático de práctica enfocado en maquetación creativa, animaciones CSS y composición visual sobre una identidad de marca definida.",
       en: "Practice-themed website focused on creative layout, CSS animations, and visual composition around a defined brand identity.",
@@ -547,8 +551,8 @@ export const projects: Project[] = [
     image: "/images/projects/refugio-1.png",
     tech: ["HTML", "CSS", "JavaScript", "PHP"],
     categories: ["web", "frontend", "backend"],
-    demoUrl: "https://example.com/refugio-animal",
-    githubUrl: "https://github.com/TonyM-hk/refugio-animal",
+    // demoUrl: "https://example.com/refugio-animal",
+    // githubUrl: "https://github.com/TonyM-hk/refugio-animal",
     description: {
       es: "Sitio web para un refugio de animales, con secciones para conocer mascotas disponibles para adopción, historias y formas de ayudar.",
       en: "Website for an animal shelter, with sections to meet pets available for adoption, stories, and ways to help.",
@@ -578,45 +582,45 @@ export const projects: Project[] = [
       "/images/projects/refugio-3.png",
     ],
     video: "/videos/refugio-demo.mp4",
-  },
+  }
 
-  {
-    id: "nba-analysis",
-    name: { es: "Análisis Estadístico NBA", en: "NBA Statistical Analysis" },
-    image: "/images/GAME1.png",
-    tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "JupyterLab"],
-    categories: ["backend"],
-    demoUrl: "https://example.com/nba",
-    githubUrl: "https://github.com/TonyM-hk/nba-data-analysis",
-    description: {
-      es: "Proyecto de ciencia de datos enfocado en la manipulación y análisis de dataframes históricos de la NBA para evaluar la evolución e incremento de los tiros de tres puntos.",
-      en: "Data science project focused on manipulation and analysis of historical NBA dataframes to evaluate the evolution and increase of three-point field goals.",
-    },
+  // {
+  //   id: "nba-analysis",
+  //   name: { es: "Análisis Estadístico NBA", en: "NBA Statistical Analysis" },
+  //   image: "/images/GAME1.png",
+  //   tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "JupyterLab"],
+  //   categories: ["backend"],
+  //    demoUrl: "https://example.com/nba",
+  //    githubUrl: "https://github.com/TonyM-hk/nba-data-analysis",
+  //   description: {
+  //     es: "Proyecto de ciencia de datos enfocado en la manipulación y análisis de dataframes históricos de la NBA para evaluar la evolución e incremento de los tiros de tres puntos.",
+  //     en: "Data science project focused on manipulation and analysis of historical NBA dataframes to evaluate the evolution and increase of three-point field goals.",
+  //   },
 
-    role: {
-      es: "Analista de Datos",
-      en: "Data Analyst",
-    },
-    longDescription: {
-      es: "Este proyecto analiza datasets históricos de la NBA para identificar tendencias en el uso del tiro de tres puntos a lo largo de las temporadas. Utilicé Pandas para la limpieza y transformación de los datos, y Matplotlib/Seaborn para construir visualizaciones que muestran la evolución del juego moderno hacia un mayor volumen de tiros de larga distancia.",
-      en: "This project analyzes historical NBA datasets to identify trends in three-point shot usage across seasons. I used Pandas for data cleaning and transformation, and Matplotlib/Seaborn to build visualizations showing the modern game's evolution toward a higher volume of long-range shots.",
-    },
-    highlights: {
-      es: [
-        "Limpieza y transformación de datasets históricos con Pandas",
-        "Visualizaciones comparativas por temporada con Matplotlib y Seaborn",
-        "Análisis de correlación entre volumen de tiros de tres y resultados de equipo",
-        "Documentación del proceso completo en JupyterLab",
-      ],
-      en: [
-        "Historical dataset cleaning and transformation with Pandas",
-        "Season-by-season comparative visualizations with Matplotlib and Seaborn",
-        "Correlation analysis between three-point volume and team outcomes",
-        "Fully documented process in JupyterLab",
-      ],
-    },
-    gallery: ["/images/project-nba.svg"],
-  },
+  //   role: {
+  //     es: "Analista de Datos",
+  //     en: "Data Analyst",
+  //   },
+  //   longDescription: {
+  //     es: "Este proyecto analiza datasets históricos de la NBA para identificar tendencias en el uso del tiro de tres puntos a lo largo de las temporadas. Utilicé Pandas para la limpieza y transformación de los datos, y Matplotlib/Seaborn para construir visualizaciones que muestran la evolución del juego moderno hacia un mayor volumen de tiros de larga distancia.",
+  //     en: "This project analyzes historical NBA datasets to identify trends in three-point shot usage across seasons. I used Pandas for data cleaning and transformation, and Matplotlib/Seaborn to build visualizations showing the modern game's evolution toward a higher volume of long-range shots.",
+  //   },
+  //   highlights: {
+  //     es: [
+  //       "Limpieza y transformación de datasets históricos con Pandas",
+  //       "Visualizaciones comparativas por temporada con Matplotlib y Seaborn",
+  //       "Análisis de correlación entre volumen de tiros de tres y resultados de equipo",
+  //       "Documentación del proceso completo en JupyterLab",
+  //     ],
+  //     en: [
+  //       "Historical dataset cleaning and transformation with Pandas",
+  //       "Season-by-season comparative visualizations with Matplotlib and Seaborn",
+  //       "Correlation analysis between three-point volume and team outcomes",
+  //       "Fully documented process in JupyterLab",
+  //     ],
+  //   },
+  //   gallery: ["/images/project-nba.svg"],
+  // },
 ];
 
 // ---------------------------------------------------------------------------

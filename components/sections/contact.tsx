@@ -14,7 +14,7 @@ export default function Contact() {
     { icon: Phone, label: personal.phoneDisplay, href: `tel:${personal.whatsappNumber}` },
     { icon: MessageCircle, label: "WhatsApp", href: `https://wa.me/${personal.whatsappNumber}` },
     { icon: Github, label: "GitHub", href: personal.github },
-    { icon: Linkedin, label: "LinkedIn", href: personal.linkedin },
+    // { icon: Linkedin, label: "LinkedIn", href: personal.linkedin },
   ];
 
   return (

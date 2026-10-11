@@ -16,10 +16,10 @@ export default function Home() {
       <main id="main-content">
         <Hero />
         <About />
+        <Education />
         <Skills />
         <Projects />
         <WorkDocuments />
-        <Education />
         <Achievements />
         <Contact />
       </main>
