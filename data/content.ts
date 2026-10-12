@@ -245,7 +245,7 @@ export const projects: Project[] = [
     image: "/images/projects/spa-1.png",
     tech: ["Next", "MySQL", "JavaScript", "React"],
     categories: ["web", "backend", "frontend"],
-    demoUrl: "https://example.com/dealva",
+    // demoUrl: "https://example.com/dealva",
     // githubUrl: "https://github.com/TonyM-hk/dealva-spa",
     featured: true,
     description: {
